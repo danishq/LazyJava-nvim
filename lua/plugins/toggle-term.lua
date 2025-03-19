@@ -3,7 +3,7 @@ return {
     "akinsho/toggleterm.nvim",
     version = "*",
     opts = {
-      open_mapping = [[<leader>gt]], -- Open terminal with <leader>gt
+      --open_mapping = [[<leader>gt]], -- Open terminal with <leader>gt
       direction = "float", -- You can change this to "horizontal" or "vertical"
     },
     config = function(_, opts)
