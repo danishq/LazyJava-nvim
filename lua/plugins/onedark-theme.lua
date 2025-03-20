@@ -3,7 +3,7 @@ return {
   config = function()
     -- Lua
     require("onedark").setup({
-      style = "warmer",
+      style = "darker",
     })
     require("onedark").load()
   end,
