@@ -1,10 +1,21 @@
+--return {
+--  "navarasu/onedark.nvim",
+--  config = function()
+--    -- Lua
+--    require("onedark").setup({
+--      style = "darker",
+--    })
+--    require("onedark").load()
+--  end,
+--}
+
 return {
-  "navarasu/onedark.nvim",
+  "catppuccin/nvim",
+  name = "catppuccin",
+  priority = 1000,
   config = function()
-    -- Lua
-    require("onedark").setup({
-      style = "darker",
+    require("catppuccin").setup({
+      flavour = "macchiato",
     })
-    require("onedark").load()
   end,
 }
